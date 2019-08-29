@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Index</title>
+</head>
+<body>
+	{% for i in user_image %}
+		<div><img src="{{ i[0] }}" alt=""></div>
+	{% endfor %}
+    <div><a href="user">home</a></div>
+</body>
+</html>
